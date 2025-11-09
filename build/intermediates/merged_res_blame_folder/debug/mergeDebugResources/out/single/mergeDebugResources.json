@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/drawable_bg_sos_button_green.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/drawable/bg_sos_button_green.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/layout_activity_settings.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/anim_pulse_inactive.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/anim/pulse_inactive.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/layout_activity_forgot_password.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/layout_activity_alert.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/layout/activity_alert.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/layout_activity_home.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/anim_pulse_active.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/anim/pulse_active.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/layout_activity_register.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/raw_alert_sound.mp3.flat",
+        "source": "com.sos.app.sosapp-main-44:/raw/alert_sound.mp3"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/layout_activity_login.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/drawable_sos_active.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/drawable/sos_active.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/drawable_sos_inactive.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/drawable/sos_inactive.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/anim_pulse.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/anim/pulse.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/drawable_bg_sos_button_red.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/drawable/bg_sos_button_red.xml"
+    },
+    {
+        "merged": "com.sos.app.sosapp-debug-42:/anim_estrobo.xml.flat",
+        "source": "com.sos.app.sosapp-main-44:/anim/estrobo.xml"
+    }
+]

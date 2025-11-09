@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "164857062077",
+    "project_id": "boton-sos-b2025",
+    "storage_bucket": "boton-sos-b2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164857062077:android:5b7663154b3690b9e14dd4",
+        "android_client_info": {
+          "package_name": "com.sos.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT9pvwsQyuRP159fT0jAQzZ7PpvSMseOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,451 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sos.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:5:3-65
+11-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:5:20-62
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:6:3-64
+12-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:6:20-61
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:7:3-63
+13-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:7:20-60
+14    <uses-permission android:name="android.permission.FLASHLIGHT" />
+14-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:8:3-67
+14-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:8:20-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:9:3-77
+15-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:9:20-74
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:10:3-79
+16-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:10:20-76
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:11:3-75
+17-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:11:20-72
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:22:5-79
+18-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:22:22-76
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:23:5-77
+19-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:23:22-74
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:24:5-68
+20-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:26:22-79
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+23    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+23-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+23-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+24    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+24-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+24-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+26
+27    <permission
+27-->[androidx.core:core:1.13.1] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\80b6141d03b5c7b67a5ca9a7e01f3328\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+28        android:name="com.sos.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.13.1] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\80b6141d03b5c7b67a5ca9a7e01f3328\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.13.1] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\80b6141d03b5c7b67a5ca9a7e01f3328\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.sos.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.13.1] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\80b6141d03b5c7b67a5ca9a7e01f3328\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.13.1] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\80b6141d03b5c7b67a5ca9a7e01f3328\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:13:3-73:17
+34        android:name="com.sos.app.MyApplication"
+34-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:14:7-47
+35        android:allowBackup="true"
+35-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:15:7-33
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.13.1] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\80b6141d03b5c7b67a5ca9a7e01f3328\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@android:drawable/ic_dialog_alert"
+39-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:16:7-55
+40        android:label="@string/app_name"
+40-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:17:7-39
+41        android:supportsRtl="true"
+41-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:18:7-33
+42        android:testOnly="true"
+43        android:theme="@style/Theme.SOSApp"
+43-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:19:7-42
+44        android:usesCleartextTraffic="true" >
+44-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:20:7-42
+45        <activity
+45-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:22:5-24:36
+46            android:name="com.sos.app.ui.ForgotPasswordActivity"
+46-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:23:9-61
+47            android:exported="false" />
+47-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:24:9-33
+48        <activity
+48-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:25:5-27:36
+49            android:name="com.sos.app.ui.RegisterActivity"
+49-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:26:9-55
+50            android:exported="false" />
+50-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:27:9-33
+51        <activity
+51-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:28:5-35:16
+52            android:name="com.sos.app.ui.LoginActivity"
+52-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:29:9-52
+53            android:exported="true" >
+53-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:30:9-32
+54            <intent-filter>
+54-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:31:7-34:23
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:32:9-61
+55-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:32:17-58
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:33:9-69
+57-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:33:19-66
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:36:5-38:35
+61            android:name="com.sos.app.ui.HomeActivity"
+61-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:37:9-51
+62            android:exported="true" />
+62-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:38:9-32
+63        <activity
+63-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:39:5-41:36
+64            android:name="com.sos.app.SettingsActivity"
+64-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:40:9-52
+65            android:exported="false" />
+65-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:41:9-33
+66
+67        <!-- ✅ Receptor y servicios -->
+68        <receiver
+68-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:44:5-46:36
+69            android:name="com.sos.app.AlertReceiver"
+69-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:45:9-49
+70            android:exported="false" />
+70-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:46:9-33
+71
+72        <service
+72-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:48:5-51:52
+73            android:name="com.sos.app.services.SosSendService"
+73-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:49:9-48
+74            android:exported="false"
+74-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:50:9-33
+75            android:foregroundServiceType="location" />
+75-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:51:9-49
+76
+77        <!-- 🧩 NUEVO: Servicio receptor de alertas SOS -->
+78        <service
+78-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:54:5-57:52
+79            android:name="com.sos.app.services.SosReceiverService"
+79-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:55:9-52
+80            android:exported="true"
+80-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:56:9-32
+81            android:foregroundServiceType="dataSync" />
+81-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:57:9-49
+82        <service
+82-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:59:5-65:15
+83            android:name="com.sos.app.fcm.MyFirebaseService"
+83-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:60:9-57
+84            android:exported="false" >
+84-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:61:9-33
+85            <intent-filter>
+85-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:62:7-64:23
+86                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+86-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:63:9-70
+86-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:63:17-67
+87            </intent-filter>
+88        </service>
+89
+90        <activity
+90-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:67:5-72:71
+91            android:name="com.sos.app.AlertActivity"
+91-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:68:9-49
+92            android:exported="false"
+92-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:69:9-33
+93            android:showWhenLocked="true"
+93-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:70:9-38
+94            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+94-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:72:9-68
+95            android:turnScreenOn="true" />
+95-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:71:9-36
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+99            android:authorities="com.sos.app.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0ee3a0f53838944aa0adc5e0c18f281a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0ee3a0f53838944aa0adc5e0c18f281a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0ee3a0f53838944aa0adc5e0c18f281a\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+109                android:value="androidx.startup" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+110        </provider>
+111
+112        <receiver
+112-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:29:9-40:20
+113            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+113-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:30:13-78
+114            android:exported="true"
+114-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:31:13-36
+115            android:permission="com.google.android.c2dm.permission.SEND" >
+115-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:32:13-73
+116            <intent-filter>
+116-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:33:13-35:29
+117                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+117-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:34:17-81
+117-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:34:25-78
+118            </intent-filter>
+119
+120            <meta-data
+120-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:37:13-39:40
+121                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+121-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:38:17-92
+122                android:value="true" />
+122-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:39:17-37
+123        </receiver>
+124        <!--
+125             FirebaseMessagingService performs security checks at runtime,
+126             but set to not exported to explicitly avoid allowing another app to call it.
+127        -->
+128        <service
+128-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:46:9-53:19
+129            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+129-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:47:13-82
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:48:13-43
+131            android:exported="false" >
+131-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:49:13-37
+132            <intent-filter android:priority="-500" >
+132-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:62:7-64:23
+133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+133-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:63:9-70
+133-->C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\AndroidManifest.xml:63:17-67
+134            </intent-filter>
+135        </service>
+136        <service
+136-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:54:9-63:19
+137            android:name="com.google.firebase.components.ComponentDiscoveryService"
+137-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:55:13-84
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+139            android:exported="false" >
+139-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:56:13-37
+140            <meta-data
+140-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:57:13-59:85
+141                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+141-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:58:17-122
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:59:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:60:13-62:85
+144                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+144-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:61:17-119
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-messaging:24.0.2] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\AndroidManifest.xml:62:17-82
+146            <meta-data
+146-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+147                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+147-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\808af3336a535f54601f1b7929f78c34\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+150                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+150-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\808af3336a535f54601f1b7929f78c34\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\808af3336a535f54601f1b7929f78c34\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\808af3336a535f54601f1b7929f78c34\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+153                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+153-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\808af3336a535f54601f1b7929f78c34\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\808af3336a535f54601f1b7929f78c34\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\b3672ad74a160336b6bea8abebd1d4cc\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+156                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+156-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\b3672ad74a160336b6bea8abebd1d4cc\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\b3672ad74a160336b6bea8abebd1d4cc\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+159                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+159-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7e2b2c682b27714d2f2499347f1785f9\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+162                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+162-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7e2b2c682b27714d2f2499347f1785f9\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7e2b2c682b27714d2f2499347f1785f9\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+164        </service>
+165
+166        <activity
+166-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7b93904339def408eb6d4f806a3d5975\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7b93904339def408eb6d4f806a3d5975\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7b93904339def408eb6d4f806a3d5975\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7b93904339def408eb6d4f806a3d5975\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+170
+171        <property
+171-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+172            android:name="android.adservices.AD_SERVICES_CONFIG"
+172-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+173            android:resource="@xml/ga_ad_services_config" />
+173-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+174
+175        <provider
+175-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+176            android:name="com.google.firebase.provider.FirebaseInitProvider"
+176-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+177            android:authorities="com.sos.app.firebaseinitprovider"
+177-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+179            android:exported="false"
+179-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+180            android:initOrder="100" />
+180-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+181
+182        <receiver
+182-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+183            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+183-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+185            android:exported="false" >
+185-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+186        </receiver>
+187
+188        <service
+188-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+189            android:name="com.google.android.gms.measurement.AppMeasurementService"
+189-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+191            android:exported="false" />
+191-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+192        <service
+192-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+193            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+193-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+194            android:enabled="true"
+194-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+196            android:permission="android.permission.BIND_JOB_SERVICE" />
+196-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\451bd57ca1c365d1c5036549f1ef58e2\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+197
+198        <uses-library
+198-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0fc35464848f1ab4ba87a7b55cea22a8\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+199            android:name="android.ext.adservices"
+199-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0fc35464848f1ab4ba87a7b55cea22a8\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+200            android:required="false" />
+200-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0fc35464848f1ab4ba87a7b55cea22a8\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+201
+202        <meta-data
+202-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\8cef2646c5dcaecef4e449c99c0d3d0b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+203            android:name="com.google.android.gms.version"
+203-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\8cef2646c5dcaecef4e449c99c0d3d0b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+204            android:value="@integer/google_play_services_version" />
+204-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\8cef2646c5dcaecef4e449c99c0d3d0b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+205
+206        <service
+206-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\66ca954877a79e0f95611762a8cc4789\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+207            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+207-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\66ca954877a79e0f95611762a8cc4789\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+208            android:exported="false" >
+208-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\66ca954877a79e0f95611762a8cc4789\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+209            <meta-data
+209-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\66ca954877a79e0f95611762a8cc4789\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+210                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+210-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\66ca954877a79e0f95611762a8cc4789\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+211                android:value="cct" />
+211-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\66ca954877a79e0f95611762a8cc4789\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+212        </service>
+213        <service
+213-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7dba0b43f997c34ede57fc41940e39aa\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+214            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+214-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7dba0b43f997c34ede57fc41940e39aa\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+215            android:exported="false"
+215-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7dba0b43f997c34ede57fc41940e39aa\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+216            android:permission="android.permission.BIND_JOB_SERVICE" >
+216-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7dba0b43f997c34ede57fc41940e39aa\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+217        </service>
+218
+219        <receiver
+219-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7dba0b43f997c34ede57fc41940e39aa\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+220            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+220-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7dba0b43f997c34ede57fc41940e39aa\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+221            android:exported="false" />
+221-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7dba0b43f997c34ede57fc41940e39aa\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+222        <receiver
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+223            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+224            android:directBootAware="false"
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+225            android:enabled="true"
+225-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+226            android:exported="true"
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+227            android:permission="android.permission.DUMP" >
+227-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+228            <intent-filter>
+228-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+229                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+230            </intent-filter>
+231            <intent-filter>
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+232                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+233            </intent-filter>
+234            <intent-filter>
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+235                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+236            </intent-filter>
+237            <intent-filter>
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+238                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+239            </intent-filter>
+240        </receiver>
+241    </application>
+242
+243</manifest>

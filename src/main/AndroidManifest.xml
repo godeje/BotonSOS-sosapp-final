@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sos.app">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.FLASHLIGHT" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+  <application
+      android:name="com.sos.app.MyApplication"
+      android:allowBackup="true"
+      android:icon="@android:drawable/ic_dialog_alert"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/Theme.SOSApp"
+      android:usesCleartextTraffic="true">
+
+    <activity
+        android:name="com.sos.app.ui.ForgotPasswordActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.sos.app.ui.RegisterActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.sos.app.ui.LoginActivity"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+        android:name="com.sos.app.ui.HomeActivity"
+        android:exported="true" />
+    <activity
+        android:name="com.sos.app.SettingsActivity"
+        android:exported="false" />
+
+    <!-- ✅ Receptor y servicios -->
+    <receiver
+        android:name="com.sos.app.AlertReceiver"
+        android:exported="false" />
+
+    <service
+        android:name=".services.SosSendService"
+        android:exported="false"
+        android:foregroundServiceType="location" />
+
+    <!-- 🧩 NUEVO: Servicio receptor de alertas SOS -->
+    <service
+        android:name=".services.SosReceiverService"
+        android:exported="true"
+        android:foregroundServiceType="dataSync" />
+
+    <service
+        android:name="com.sos.app.fcm.MyFirebaseService"
+        android:exported="false">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+      </intent-filter>
+    </service>
+
+    <activity
+        android:name="com.sos.app.AlertActivity"
+        android:exported="false"
+        android:showWhenLocked="true"
+        android:turnScreenOn="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+  </application>
+</manifest>

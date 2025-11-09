@@ -1,0 +1,45 @@
+com.sos.app.sosapp-annotation-experimental-1.4.0-0 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\01fce0b279b7c1b262b36ebec9e1d3ff\transformed\annotation-experimental-1.4.0\res
+com.sos.app.sosapp-emoji2-views-helper-1.2.0-1 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\028cbf6df41bcc2b57fd4abf4e368b22\transformed\emoji2-views-helper-1.2.0\res
+com.sos.app.sosapp-security-crypto-1.1.0-alpha06-2 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0322734bb6f6f5d62166e34d696fe2c2\transformed\security-crypto-1.1.0-alpha06\res
+com.sos.app.sosapp-play-services-measurement-api-21.5.0-3 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\03b6931fdc393a07b252e80dcf1612f7\transformed\play-services-measurement-api-21.5.0\res
+com.sos.app.sosapp-firebase-common-21.0.0-4 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\07c1177f15b07df07b23eb09f0ff3c9c\transformed\firebase-common-21.0.0\res
+com.sos.app.sosapp-core-ktx-1.13.1-5 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0908a1d0d2bb5c33b95c80d6ade666f3\transformed\core-ktx-1.13.1\res
+com.sos.app.sosapp-lifecycle-process-2.7.0-6 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0ee3a0f53838944aa0adc5e0c18f281a\transformed\lifecycle-process-2.7.0\res
+com.sos.app.sosapp-ads-adservices-1.0.0-beta05-7 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\0fc35464848f1ab4ba87a7b55cea22a8\transformed\ads-adservices-1.0.0-beta05\res
+com.sos.app.sosapp-savedstate-1.2.1-8 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\12429a852b23483af42946ad7a0d9a86\transformed\savedstate-1.2.1\res
+com.sos.app.sosapp-recyclerview-1.1.0-9 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\2048c15456f24e5dee895bf4c4db2284\transformed\recyclerview-1.1.0\res
+com.sos.app.sosapp-activity-1.8.0-10 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\29ba8a16bcc95486e149599c032d2f38\transformed\activity-1.8.0\res
+com.sos.app.sosapp-emoji2-1.2.0-11 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\335ec0476e23c3c0d82a9d0ffd2d7f0a\transformed\emoji2-1.2.0\res
+com.sos.app.sosapp-firebase-messaging-24.0.2-12 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\446c54aa39689a19046a1c2cb0dd0ed2\transformed\firebase-messaging-24.0.2\res
+com.sos.app.sosapp-material-1.13.0-alpha01-13 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\46acfd5e09eeeacdfe97548ff5277bc3\transformed\material-1.13.0-alpha01\res
+com.sos.app.sosapp-transition-1.5.0-rc01-14 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\532da8db5b0da8d5bb12497cb2f796c9\transformed\transition-1.5.0-rc01\res
+com.sos.app.sosapp-lifecycle-livedata-core-ktx-2.7.0-15 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\61f9360313ac9ea230598e6dd60ab51a\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.sos.app.sosapp-lifecycle-viewmodel-2.7.0-16 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\717d5bc96866399b3feb4788c4436510\transformed\lifecycle-viewmodel-2.7.0\res
+com.sos.app.sosapp-appcompat-resources-1.6.1-17 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\72200c603dba29c61dae834c6df62ec7\transformed\appcompat-resources-1.6.1\res
+com.sos.app.sosapp-play-services-base-18.5.0-18 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\7b93904339def408eb6d4f806a3d5975\transformed\play-services-base-18.5.0\res
+com.sos.app.sosapp-core-1.13.1-19 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\80b6141d03b5c7b67a5ca9a7e01f3328\transformed\core-1.13.1\res
+com.sos.app.sosapp-cardview-1.0.0-20 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\810a1ab0d41fe1a56bda928d6124d41d\transformed\cardview-1.0.0\res
+com.sos.app.sosapp-lifecycle-runtime-ktx-2.7.0-21 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\8caca236e2e6e47c9506ea23067db467\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.sos.app.sosapp-play-services-basement-18.4.0-22 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\8cef2646c5dcaecef4e449c99c0d3d0b\transformed\play-services-basement-18.4.0\res
+com.sos.app.sosapp-drawerlayout-1.1.1-23 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\97caaf95a6085adccd7c6d14156c5280\transformed\drawerlayout-1.1.1\res
+com.sos.app.sosapp-lifecycle-runtime-2.7.0-24 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\99b096efad119b3c7a0ee495f90f4f3c\transformed\lifecycle-runtime-2.7.0\res
+com.sos.app.sosapp-coordinatorlayout-1.1.0-25 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\9b32ce66cda0ec2200c67c30cb984936\transformed\coordinatorlayout-1.1.0\res
+com.sos.app.sosapp-lifecycle-livedata-2.7.0-26 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\9cf1be7a8e0d80c247a7665aee443247\transformed\lifecycle-livedata-2.7.0\res
+com.sos.app.sosapp-ads-adservices-java-1.0.0-beta05-27 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\a17a0d4ce79a4a9e0bcd6ac2ae953da5\transformed\ads-adservices-java-1.0.0-beta05\res
+com.sos.app.sosapp-viewpager2-1.0.0-28 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\a4064d7bf3130daed28c1ebb4617e6b5\transformed\viewpager2-1.0.0\res
+com.sos.app.sosapp-constraintlayout-2.0.1-29 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\ad31232907f0477dcaff0513bb06f60a\transformed\constraintlayout-2.0.1\res
+com.sos.app.sosapp-startup-runtime-1.1.1-30 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\cd6f5ff21cef517b20a6af4413938838\transformed\startup-runtime-1.1.1\res
+com.sos.app.sosapp-appcompat-1.6.1-31 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\cdfb79fe4f235694c330110cb6fe6f44\transformed\appcompat-1.6.1\res
+com.sos.app.sosapp-core-runtime-2.2.0-32 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\d459935ebb0c899725e3ebf103005ad3\transformed\core-runtime-2.2.0\res
+com.sos.app.sosapp-lifecycle-viewmodel-savedstate-2.7.0-33 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\ee96b3508a1b686b2f8d3c4b43daac17\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.sos.app.sosapp-lifecycle-livedata-core-2.7.0-34 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\f1fec1dcc4e820a223b4eaa148df46c2\transformed\lifecycle-livedata-core-2.7.0\res
+com.sos.app.sosapp-fragment-1.3.6-35 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\f6c0f9f33e0a4078b815e61a3ce3ea05\transformed\fragment-1.3.6\res
+com.sos.app.sosapp-profileinstaller-1.3.0-36 C:\Users\Gomez_Velazquez\3D Objects\neuroboost_app_pro\android\caches\transforms-4\fe85cc8ca3714fe8bcef0e52e60215a6\transformed\profileinstaller-1.3.0\res
+com.sos.app.sosapp-pngs-37 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\generated\res\pngs\debug
+com.sos.app.sosapp-res-38 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\generated\res\processDebugGoogleServices
+com.sos.app.sosapp-resValues-39 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\generated\res\resValues\debug
+com.sos.app.sosapp-packageDebugResources-40 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.sos.app.sosapp-packageDebugResources-41 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.sos.app.sosapp-debug-42 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\intermediates\merged_res\debug\mergeDebugResources
+com.sos.app.sosapp-debug-43 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\debug\res
+com.sos.app.sosapp-main-44 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\src\main\res

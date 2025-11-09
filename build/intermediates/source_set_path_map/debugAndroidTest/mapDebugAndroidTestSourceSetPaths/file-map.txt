@@ -1,0 +1,4 @@
+com.sos.app.test.sosapp-androidTest-0 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\generated\res\resValues\androidTest\debug
+com.sos.app.test.sosapp-mergeDebugAndroidTestResources-1 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.sos.app.test.sosapp-mergeDebugAndroidTestResources-2 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.sos.app.test.sosapp-debugAndroidTest-3 C:\Users\Gomez_Velazquez\Downloads\BotonSOS\sosapp\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

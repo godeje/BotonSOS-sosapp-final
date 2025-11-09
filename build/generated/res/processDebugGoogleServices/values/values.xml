@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">164857062077</string>
+    <string name="google_api_key" translatable="false">AIzaSyBT9pvwsQyuRP159fT0jAQzZ7PpvSMseOY</string>
+    <string name="google_app_id" translatable="false">1:164857062077:android:5b7663154b3690b9e14dd4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBT9pvwsQyuRP159fT0jAQzZ7PpvSMseOY</string>
+    <string name="google_storage_bucket" translatable="false">boton-sos-b2025.firebasestorage.app</string>
+    <string name="project_id" translatable="false">boton-sos-b2025</string>
+</resources>

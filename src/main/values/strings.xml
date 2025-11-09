@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SOSApp</string>
+  <string name="settings">Configuración</string>
+  <string name="settings_placeholder">Ajustes próximamente.</string>
+  <string name="sos">SOS</string>
+  <string name="user_label">Usuario: ---</string>
+  <string name="plan_label">Plan: Individual</string>
+  <string name="members_label">Miembros conectados: 1 / 2</string>
+</resources>
+
+
+
+
